@@ -1,0 +1,94 @@
+/*
+Theme Name: NGO-2020
+Theme URI: http://thevirtualize.com/themes/twenty-twenty
+Author: the Fazal Khan
+Author URI: https://github.com/fazalkh302
+Description: A Basic theme for NGO website called ActionMboka.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: black, brown, orange, tan, white, yellow, light, one-column, two-columns, right-sidebar, flexible-width, custom-header, custom-menu, editor-style, featured-images, microformats, post-formats, rtl-language-support, sticky-post, translation-ready
+Text Domain: twentythirteen
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+/* 1st top-nav */
+@font-face {
+    font-family: myfont1;
+    src: url(assets/fonts/Basic-Regular.ttf);
+}
+.myfont1{
+    font-family: myfont1 !important;
+}
+.font-small{
+    font-family: monospace !important;
+    font-size: small !important;
+    font-weight: 600 !important;
+}
+.col-lg-3 .col-12 .row .fab:before{
+    top: unset !important;
+    left: unset !important;
+}
+/* end-1st-top-nav */
+
+
+
+/* main-section-background-image */
+.bg{
+    height: 86vh;
+  /* min-height: 500px; */
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('assets/images/hero.jpg');
+  background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center center;
+   /* filter: brightness(60%); */
+}
+/* end-main-section-background-image */
+
+
+
+/* for-good-recent-causes-cards */
+.css .card-deck .card{
+    border: unset !important;
+    border-radius: unset !important;
+}
+.css .card-deck .card-img-top{
+    border-top-left-radius: 0.4rem !important;
+    border-top-right-radius: 0.4rem !important;
+}
+.css .card-deck .card-body{
+    background-color: white !important;
+    margin-top: -10px !important;
+}
+.css .card-deck .rounded-lg{
+    border-radius: 0.7rem !important;
+}
+/* end-for-good-recent-causes-cards */
+
+
+
+/* footer-social-icons */
+i.fab.bg-white.shadow-sm.mx-1.rounded-circle{
+    width: 43px;
+    height: 43px;
+    text-align: center !important;
+    line-height: 2;
+}
+i.fab.bg-white.shadow-sm.mx-1.rounded-circle:hover{
+    background-color: #03b664 !important;
+    color: white !important;
+}
+.fab:before{
+    position: relative;
+    top: 6px;
+    left: 1.1px;
+}
+.fa-instagram:before{
+    left: unset !important;
+}
+/* end-footer-social-icons */
+
+
