@@ -1,10 +1,10 @@
 <!-- become a donar -->
-<div class="col-lg-12 borders" style="padding-right: 76px; padding-left: 77px;">
-        <div class="container borders p-5 text-white" style="background-color: #03b664; top: 100px; position: relative;">
-            <div class="col-lg-12 borders p-4">
+<div class="col-lg-12 borders" style="padding: 0px 130px;">
+        <div class="container borders rounded-lg shadow border-primary p-5 text-white" style="background-color: #03b664; top: 100px; position: relative;">
+            <div class="col-lg-12 borders p-2">
                 <div class="col-lg-8 borders text-center m-auto">
-                    <h1 class="myfont1 text-center">Become a Donar</h1>
-                    <p class="text-center mb-5" style="font-size: small;">Even students who are just learning to write,school and middle school, they can begin to create paragraphs that include all of the necessary they should be able to write a paragraph</p>
+                    <h1 class="myfont1 text-center m-0">Become a Donar</h1>
+                    <p class="text-center mb-4" style="font-size: small;">Even students who are just learning to write,school and middle school, they can begin to create paragraphs that include all of the necessary they should be able to write a paragraph</p>
                     <button type="button" class="btn btn-warning col-6 rounded shadow-sm py-2" style="font-weight: 500;">DONATE</button>
                 </div>
             </div>
@@ -21,44 +21,44 @@
                             <img src="<?php bloginfo('template_url'); ?>/assets/images/Action_20MBOKA-04 (1).png" class="borders card-img" alt="">
                         </div>
                         <div class="col-lg-12 px-0">
-                            <p class="text-muteds myfont1" style="font-size: small;">Phone (Pk) : +92 000 000 000</p>
-                            <p class="text-muteds myfont1 mb-4" style="font-size: small;">SD-1 Block 'A' North Nazimabad, Karachi - 75760, Pakistan</p>
-                            <i class="fab fa-facebook-f bg-white shadow-sm mx-1 rounded-circle"></i>
-                            <i class="fab fa-twitter bg-white shadow-sm mx-1 rounded-circle"></i>
-                            <i class="fab fa-instagram bg-white shadow-sm mx-1 rounded-circle"></i>
-                            <i class="fab fa-snapchat-ghost bg-white shadow-sm mx-1 rounded-circle"></i>
+                            <p class="text-muted myfont1" style="font-size: small;">Phone (Pk) : +92 000 000 000</p>
+                            <p class="text-muted myfont1 mb-4" style="font-size: small;">SD-1 Block 'A' North Nazimabad, Karachi - 75760, Pakistan</p>
+                            <a href="#" class="text-body"><i class="fab fa-facebook-f bg-white shadow-sm mx-1 rounded-circle footer-social-icon"></i></a>
+                            <a href="#" class="text-body"><i class="fab fa-twitter bg-white shadow-sm mx-1 rounded-circle footer-social-icon"></i></a>
+                            <a href="#" class="text-body"><i class="fab fa-instagram bg-white shadow-sm mx-1 rounded-circle footer-social-icon"></i></a>
+                            <a href="#" class="text-body"><i class="fab fa-snapchat-ghost bg-white shadow-sm mx-1 rounded-circle footer-social-icon"></i></a>
                         </div>
                     </div>
                     <div class="col-lg-2 borders">
                         <div class="col-lg-12 borders mb-4">
-                            <h3 class="myfont1">Service</h3>
+                            <h6 class="myfont1s">Service</h6>
                         </div>
                         <div class="col-lg-12 borders">
-                            <p class="myfont1" style="font-size: small;">Donate</p>
-                            <p class="myfont1" style="font-size: small;">Volunteer</p>
-                            <p class="myfont1" style="font-size: small;">Donation</p>
-                            <p class="myfont1" style="font-size: small;">Chairty</p>
+                            <a class="footer-link" href="#"><p class="myfont1 text-muted" style="font-size: small;">Donate</p></a>
+                            <a class="footer-link" href="#"><p class="myfont1 text-muted" style="font-size: small;">Volunteer</p></a>
+                            <a class="footer-link" href="#"><p class="myfont1 text-muted" style="font-size: small;">Donation</p></a>
+                            <a class="footer-link" href="#"><p class="myfont1 text-muted" style="font-size: small;">Chairty</p></a>
                         </div>
                     </div>
                     <div class="col-lg-2 borders">
                         <div class="col-lg-12 borders mb-4">
-                            <h3 class="myfont1">Our Links</h3>
+                            <h6 class="myfont1s">Our Links</h6>
                         </div>
                         <div class="col-lg-12 borders">
-                            <p class="myfont1" style="font-size: small;"><a class="text-dark" href="#">Contact Us</a></p>
-                            <p class="myfont1" style="font-size: small;"><a class="text-dark" href="#">About Us</a></p>
-                            <p class="myfont1" style="font-size: small;"><a class="text-dark" href="#">Donation</a></p>
-                            <p class="myfont1" style="font-size: small;"><a class="text-dark" href="#">Volunteer</a></p>
+                            <a class="footer-link" href="#"><p class="myfont1 text-muted" style="font-size: small;">Contact Us</p></a>
+                            <a class="footer-link" href="#"><p class="myfont1 text-muted" style="font-size: small;">About Us</p></a>
+                            <a class="footer-link" href="#"><p class="myfont1 text-muted" style="font-size: small;">Donation</p></a>
+                            <a class="footer-link" href="#"><p class="myfont1 text-muted" style="font-size: small;">Volunteer</p></a>
                         </div>
                     </div>
                     <div class="col-lg-4">
                         <div class="col-lg-12 mb-4">
-                            <h3 class="myfont1 mb-1">Subscribe</h3>
-                            <p class="myfont1" style="font-size: small;">Even students who are just</p>
+                            <h6 class="myfont1s mb-1">Subscribe</h6>
+                            <p class="myfont1 text-muted" style="font-size: small;">Even students who are just</p>
                         </div>
                         <div class="col-lg-12">
                             <form action="" method="post" class="">
-                                <input type="email" name="" id="" class="form-control col mb-2 rounded-lg py-4 border-0 shadow-sm" style="font-size: revert;font-weight: 600;" placeholder="Enter your Email for Donate" required>
+                                <input type="email" class="form-control col mb-2 py-4 my-form-control" placeholder="Enter your Email for Donate" required>
                                 <button type="button" class="btn btn-warning col-5 myfont1 py-2 px-4">Send</button>
                             </form>
                         </div>

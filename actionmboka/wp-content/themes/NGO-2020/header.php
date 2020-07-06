@@ -26,23 +26,21 @@
 <body>
 
     <!-- top contact area -->
-    <div class="container-fluid borders border-dark py-1 text-white position-relative"
-        style="box-shadow: 0px 5px 12px 3px #0000006b; background-color: #1d2a3b;">
-        <div class="container borders border-warning">
-            <!-- <div class="col-lg-12 borders border-danger"> -->
-            <div class="row align-items-centers">
-                <div class="col-lg-2 borders border-primary">
+    <div class="container-fluid py-1 text-white top-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-2">
                     <h6 class="m-0 mt-1" style="font-size: small;">admin@admin.com</h6>
                 </div>
-                <div class="col-lg-3 borders border-primary">
+                <div class="col-lg-3">
                     <h6 class="m-0 mt-1" style="font-size: small;">+9200000000</h6>
                 </div>
-                <div class="col-lg-3 ml-auto pr-0s border-primary borders">
+                <div class="col-lg-3 ml-auto">
                     <div class="col-12">
                         <div class="row">
-                            <i class="fab fa-facebook-f px-2 mt-2s" style="font-size: small; line-height: 2;"></i>
-                            <i class="fab fa-twitter px-2" style="font-size: small; line-height: 2;"></i>
-                            <i class="fab fa-instagram px-2 ml-autos" style="font-size: small; line-height: 2;"></i>
+                            <a href="#"><i class="fab fa-facebook-f px-2 header-social-icon"></i></a>
+                            <a href="#"><i class="fab fa-twitter px-3 header-social-icon"></i></a>
+                            <a href="#"><i class="fab fa-instagram px-2 header-social-icon"></i></a>
                             <a href="#" class="ml-auto text-white">
                                 <h6 class="h6 mt-1" style="font-size: small;">Login</h6>
                             </a>
@@ -50,64 +48,43 @@
                     </div>
                 </div>
             </div>
-            <!-- </div> -->
         </div>
     </div>
-
+    
     <!-- navbar in container -->
-    <div class="container-fluid borders border-dark bg-dangers" style="background-color: #03b664;">
-        <div class="container borders border-warning">
+    <div class="container-fluid" style="background-color: #03b664;">
+        <div class="container">
             <!-- start navbar -->
-            <nav class="navbar navbar-expand-lg navbar-light borders border-dark px-0">
-                <a class="navbar-brand borders border-primary col-2" href="#">
-                    <img src="/assets/images/Action_20MBOKA-04 (1).png" class="img-fluid" alt="">
+            <nav class="navbar navbar-expand-lg navbar-light px-0">
+                <a class="navbar-brand col-2" href="#">
+                    <img src="<?php bloginfo('template_url'); ?>/assets/images/logo.png" class="img-fluid" alt="">
                 </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse"
-                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
                 </button>
-
-                <div class="collapse navbar-collapse borders border-warning" id="navbarSupportedContent">
-                    <!-- <ul class="navbar-nav mr-auto m-auto borders border-primary">
-                        <li class="nav-item active">
-                            <a class="nav-link mx-2 text-white"
-                                style="font-weight: 600; border-bottom: 2px solid #4362af;" href="#">Home <span
-                                    class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link mx-2 text-white" style="font-weight: 600;" href="#">Mission</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link mx-2 text-white" style="font-weight: 600;" href="#">Objective</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link mx-2 text-white" style="font-weight: 600;" href="#">Make Donation</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link mx-2 text-white" style="font-weight: 600;" href="#">News</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link mx-2 text-white" style="font-weight: 600;" href="#">About Us</a>
-                        </li>
-                    </ul> -->
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <?php
-                        wp_nav_menu(
-                            array(
-                                'theme_location' => 'top',
-                                'container' => '',
-                                'menu_class' => 'navbar-nav main__menu',
-                                'menu' => 'Main Navigation Menu',
-                            )
-                        );
+                        wp_nav_menu(array(
+                            'theme_location' => 'primary', // Defined when registering the menu
+                            'menu_id'        => 'primary-menu',
+                            'container'      => false,
+                            'depth'          => 2,
+                            'menu_class'     => 'navbar-nav m-auto',
+                            'walker'         => new Bootstrap_NavWalker(), // This controls the display of the Bootstrap Navbar
+                            'fallback_cb'    => 'Bootstrap_NavWalker::fallback', // For menu fallback
+                        ))
                     ?>
                     <form class="form-inline">
-                        <button class="btn btn-warning py-2 px-4 rounded-sm" style="font-size: small; font-weight: 600;"
-                            type="submit">DONATE NOW</button>
+                        <button class="btn btn-warning py-2 px-4 rounded-sm" style="font-size: small; font-weight: 600;" type="submit">DONATE NOW</button>
                     </form>
                 </div>
-
             </nav>
-            <!-- end navbar -->
+              <!-- end navbar -->
         </div>
     </div>
+
+    
+    
+  
+
+
