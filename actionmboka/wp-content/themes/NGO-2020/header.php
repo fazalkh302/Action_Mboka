@@ -19,7 +19,7 @@
 
     <meta charset="<?php bloginfo('charset');?>">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><?php bloginfo('name');?> | <?php wp_title();?></title>
+    <title>Action Mboka | <?php wp_title(''); ?></title>
     <?php wp_head();?>
 </head>
 
@@ -29,23 +29,29 @@
     <div class="container-fluid py-1 text-white top-header">
         <div class="container">
             <div class="row">
-                <div class="col-lg-2">
-                    <h6 class="m-0 mt-1" style="font-size: small;">admin@admin.com</h6>
+                <div class="col-lg-4">
+                    <a href="mailto:" class="m-0 mt-1 header_links">
+                        <i class="fas fa-envelope px-2"></i>
+                        info@actionsmboka.com
+                    </a>
+                    <a href="tel:+243-814320-372" class="m-0 mt-1 header_links">
+                        <i class="fas fa-phone fa-rotate-90 px-2"></i>
+                        +243 814320 372
+                    </a>
                 </div>
-                <div class="col-lg-3">
-                    <h6 class="m-0 mt-1" style="font-size: small;">+9200000000</h6>
-                </div>
-                <div class="col-lg-3 ml-auto">
-                    <div class="col-12">
+                <div class="col-lg-8 text-right">
+
+                    <a href="#" class="header_links"><i class="fab fa-facebook-f px-2 header-social-icon"></i></a>
+                    <a href="#" class="header_links"><i class="fab fa-twitter px-3 header-social-icon"></i></a>
+                    <a href="#" class="header_links"><i class="fab fa-instagram px-2 header-social-icon"></i></a>
+
+                    <!-- <div class="col-12">
                         <div class="row">
-                            <a href="#"><i class="fab fa-facebook-f px-2 header-social-icon"></i></a>
-                            <a href="#"><i class="fab fa-twitter px-3 header-social-icon"></i></a>
-                            <a href="#"><i class="fab fa-instagram px-2 header-social-icon"></i></a>
                             <a href="#" class="ml-auto text-white">
                                 <h6 class="h6 mt-1" style="font-size: small;">Login</h6>
-                            </a>
+                            </a> 
                         </div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
@@ -55,8 +61,8 @@
     <div class="container-fluid" style="background-color: #03b664;">
         <div class="container">
             <!-- start navbar -->
-            <nav class="navbar navbar-expand-lg navbar-light px-0">
-                <a class="navbar-brand col-2" href="#">
+            <nav class="navbar navbar-expand-lg navbar-light p-0">
+                <a class="navbar-brand col-2" href="<?php echo home_url( '/' ) ?>">
                     <img src="<?php bloginfo('template_url'); ?>/assets/images/logo.png" class="img-fluid" alt="">
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -69,14 +75,12 @@
                             'menu_id'        => 'primary-menu',
                             'container'      => false,
                             'depth'          => 2,
-                            'menu_class'     => 'navbar-nav m-auto',
+                            'menu_class'     => 'navbar-nav ml-auto',
                             'walker'         => new Bootstrap_NavWalker(), // This controls the display of the Bootstrap Navbar
                             'fallback_cb'    => 'Bootstrap_NavWalker::fallback', // For menu fallback
                         ))
                     ?>
-                    <form class="form-inline">
-                        <button class="btn btn-warning py-2 px-4 rounded-sm" style="font-size: small; font-weight: 600;" type="submit">DONATE NOW</button>
-                    </form>
+                    <a href="<?php echo home_url( '/make-donation' ) ?>" class="btn btn-warning py-2 px-4 rounded-sm ml-3" style="font-size: small; font-weight: 600;">DONATE NOW</a>
                 </div>
             </nav>
               <!-- end navbar -->

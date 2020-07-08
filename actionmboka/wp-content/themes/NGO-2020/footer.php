@@ -5,7 +5,7 @@
                 <div class="col-lg-8 borders text-center m-auto">
                     <h1 class="myfont1 text-center m-0">Become a Donar</h1>
                     <p class="text-center mb-4" style="font-size: small;">Even students who are just learning to write,school and middle school, they can begin to create paragraphs that include all of the necessary they should be able to write a paragraph</p>
-                    <button type="button" class="btn btn-warning col-6 rounded shadow-sm py-2" style="font-weight: 500;">DONATE</button>
+                    <a href="<?php echo home_url( '/make-donation' ) ;?>" class="btn btn-warning col-6 rounded shadow-sm py-2" style="font-weight: 500;">DONATE</a>
                 </div>
             </div>
         </div>
@@ -21,12 +21,14 @@
                             <img src="<?php bloginfo('template_url'); ?>/assets/images/Action_20MBOKA-04 (1).png" class="borders card-img" alt="">
                         </div>
                         <div class="col-lg-12 px-0">
-                            <p class="text-muted myfont1" style="font-size: small;">Phone (Pk) : +92 000 000 000</p>
-                            <p class="text-muted myfont1 mb-4" style="font-size: small;">SD-1 Block 'A' North Nazimabad, Karachi - 75760, Pakistan</p>
+                            <p class="text-muted myfont1" style="font-size: small;">Phone : +243-814-320-372</p>
+                            <p class="text-muted myfont1 mb-4" style="font-size: small;">
+                            Head Office : 
+                            By pass 294/74 / Kinshasa-Selembao DRC.  001 712 281 3584. S Maple st. B 38 Sioux City Iowa 51106 USA
+                            </p>
                             <a href="#" class="text-body"><i class="fab fa-facebook-f bg-white shadow-sm mx-1 rounded-circle footer-social-icon"></i></a>
                             <a href="#" class="text-body"><i class="fab fa-twitter bg-white shadow-sm mx-1 rounded-circle footer-social-icon"></i></a>
                             <a href="#" class="text-body"><i class="fab fa-instagram bg-white shadow-sm mx-1 rounded-circle footer-social-icon"></i></a>
-                            <a href="#" class="text-body"><i class="fab fa-snapchat-ghost bg-white shadow-sm mx-1 rounded-circle footer-social-icon"></i></a>
                         </div>
                     </div>
                     <div class="col-lg-2 borders">

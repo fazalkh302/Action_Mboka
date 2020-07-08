@@ -14,50 +14,156 @@ This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
 */
 
+.fab::before{
+    top: 0px!important;
+}
+
 @font-face {
     font-family: myfont2;
     src: url(assets/Montserrat/fonts/Montserrat-Medium.ttf);
 }
-.myfont2{
+
+.myfont2 {
     font-family: myfont2 !important;
 }
 
 /* 1st top-nav */
+
 @font-face {
     font-family: myfont1;
     src: url(assets/fonts/Basic-Regular.ttf);
 }
-.myfont1{
+
+.myfont1 {
     font-family: myfont1 !important;
 }
-.font-small{
+
+a:hover {
+    color: #03b664;
+}
+
+.font-small {
     font-size: 12px !important;
     font-weight: 500 !important;
 }
-.col-lg-3 .col-12 .row .fab:before{
+
+.col-lg-3 .col-12 .row .fab:before {
     top: unset !important;
     left: unset !important;
 }
+
 /* end-1st-top-nav */
+.nf-form-wrap.ninja-forms-form-wrap {
+    padding-top: 50px!important;
+}
 
+.nf-form-fields-required {
+    float: right;
+    font-size: 12px;
+    opacity: 0.8;
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
 
+.nf-form-content{
+    max-width: 100%!important;
+}
+
+#nf-field-4 {
+    width: 300px;
+}
+
+.label-left .nf-field-element{
+    order: 0;
+}
+
+/* Inner Page Header */
+.inner-page-header{
+    padding: 20px 0px;
+    border-bottom: 5px solid #03b664;
+}
+.inner-page-header h2{
+    color: #03b664;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.page_main .content p {
+    text-align: justify;
+    font-size: 18px;
+    line-height: 2.2;
+}
+.page_main .content h2 {
+    color: #03b664;
+    font-size: 20px;
+    line-height: 2.2;
+    text-transform: uppercase;
+    padding-top: 20px;
+    text-decoration: underline;
+    text-underline-position: under;
+    font-weight: bold;
+}
+
+.page_main .content ul{
+    padding: 16px;
+}
+
+.page_main .content ul > li{
+    font-size: 16px;
+    line-height: 2.2;
+    font-weight: lighter;
+}
+
+/* hero-header { carousel } */
+#HeroCarousel>.carousel-inner>.carousel-caption{
+    padding: 0px;
+    bottom: 0px;
+    top: 140px;
+    z-index: 3;
+}
+
+#HeroCarousel>.carousel-inner>.carousel-item>img {
+    height: 80vh;
+}
+
+.bg-highlighter {
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 2;
+}
+
+/* who-we-are */
+.highlight-box{
+    background-color: #03b664;
+}
+.image-box{
+    height: 100%;
+}
+.image-box > img{
+    height: 100%;
+}
 
 /* main-section-background-image */
-.hero-img{
+
+.hero-img {
     height: 86vh;
-  /* min-height: 500px; */
-  width: 100%;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('assets/images/hero.jpg');
-  background-repeat: no-repeat;
-   background-size: cover;
-   background-position: center center;
-   border: 1px solid rgb(65, 63, 63) !important;
-   /* filter: brightness(60%); */
+    /* min-height: 500px; */
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('assets/images/hero.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    border: 1px solid rgb(65, 63, 63) !important;
+    /* filter: brightness(60%); */
 }
+
 /* end-main-section-background-image */
 
 /* my-custom-form-control */
-.my-form-control{
+
+.my-form-control {
     box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
     border-radius: 0.3rem !important;
     border: 0 !important;
@@ -66,61 +172,75 @@ Use it to make something cool, have fun, and share what you've learned with othe
 }
 
 /* for-good-recent-causes-cards */
-.css .card-deck .card{
+
+.css .card-deck .card {
     border: unset !important;
     border-radius: unset !important;
 }
-.css .card-deck .card-img-top{
+
+.css .card-deck .card-img-top {
     border-top-left-radius: 0.4rem !important;
     border-top-right-radius: 0.4rem !important;
 }
-.css .card-deck .card-body{
+
+.css .card-deck .card-body {
     background-color: white !important;
     margin-top: -10px !important;
 }
-.css .card-deck .rounded-lg{
+
+.css .card-deck .rounded-lg {
     border-radius: 0.7rem !important;
 }
+
 /* end-for-good-recent-causes-cards */
 
 /* start-top-header */
-.top-header{
+
+.top-header {
     /* box-shadow: 0px 5px 12px 3px #0000006b !important; */
     background-color: #1d2a3b !important;
     position: relative !important;
 }
 
 /* header-social-icons */
-.header-social-icon{
+
+.header-social-icon {
     color: white !important;
     font-size: small !important;
     line-height: 2 !important;
 }
+
 /* Hover */
-.header-social-icon:hover{
+
+.header-social-icon:hover {
     color: #03b664 !important;
 }
 
 /* footer-social-icons */
-.footer-social-icon{
+
+.footer-social-icon {
     width: 33px;
     height: 33px;
     text-align: center !important;
     font-size: small;
     transition: 0.3s;
 }
-.footer-social-icon:hover{
+
+.footer-social-icon:hover {
     background-color: #03b664 !important;
     color: white !important;
 }
-.fab:before{
+
+.fab:before {
     position: relative;
     top: 10.8px;
     left: 0.4px;
 }
-.fa-instagram:before{
+
+.fa-instagram:before {
     left: unset !important;
 }
+
 /* end-footer-social-icons */
 
 li.menu-item {
@@ -129,11 +249,11 @@ li.menu-item {
 }
 
 li.menu-item:hover {
-    border-bottom: 2px solid white !important;
+    border-bottom: 5px solid white !important;
 }
 
 li.menu-item.active {
-    border-bottom: 2px solid white !important;
+    border-bottom: 5px solid white !important;
 }
 
 a.nav-link {
@@ -141,26 +261,34 @@ a.nav-link {
     font-weight: 600 !important;
 }
 
-.bg-light{
+.bg-light {
     background-color: #f2f3f7 !important;
 }
 
-.col-lg-12.rounded-lg.py-4.bg-light:hover .text-muted{
+.col-lg-12.rounded-lg.py-4.bg-light:hover .text-muted {
     background-color: #03b664 !important;
     color: white !important;
 }
 
-.col-lg-12.rounded-lg.py-4.bg-light:hover{
+.col-lg-12.rounded-lg.py-4.bg-light:hover {
     background-color: #03b664 !important;
     color: white !important;
 }
 
-.text-black{
+.text-black {
     color: black !important;
 }
 
-.footer-link{
+.footer-link {
     text-decoration-color: black !important;
+}
+
+.header_links {
+    font-size: 14px!important;
+}
+
+.header_links:hover {
+    text-decoration: none;
 }
 
 /* input.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required{
