@@ -14,9 +14,35 @@ This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
 */
 
-.fab::before{
-    top: 0px!important;
+/* MEDIA QUERIES - FULL RESPONSIVE */
+
+@media(max-width: 767px){
+    .top-header .col-4{
+        display: none !important;
+    }
+    .top-header .col-lg-8{
+        text-align: center !important;
+    }
+    .top-header .col-lg-8s .top-header-link{
+        display: block !important;
+    }
+    .top-header .top-header-link{
+        font-size: 12px !important;
+    }
 }
+
+@media(max-width: 991px){
+    nav .navbar-collapse .navbar-nav{
+        margin-bottom: 15px !important;
+    }
+    .container-fluid .container nav{
+        padding: 10px 0px !important;
+    }
+}
+
+@media(max-width: 375px){}
+
+/* MEDIA QUERIES - FULL RESPONSIVE */
 
 @font-face {
     font-family: myfont2;
@@ -47,10 +73,10 @@ a:hover {
     font-weight: 500 !important;
 }
 
-.col-lg-3 .col-12 .row .fab:before {
+/* .col-lg-3 .col-12 .row .fab:before {
     top: unset !important;
     left: unset !important;
-}
+} */
 
 /* end-1st-top-nav */
 .nf-form-wrap.ninja-forms-form-wrap {
@@ -122,8 +148,8 @@ a:hover {
     z-index: 3;
 }
 
-#HeroCarousel>.carousel-inner>.carousel-item>img {
-    height: 80vh;
+#HeroCarousel > .carousel-inner > .carousel-item > img {
+    height: 88.1vh;
 }
 
 .bg-highlighter {
@@ -202,9 +228,17 @@ a:hover {
     position: relative !important;
 }
 
+.top-header-link {
+    font-size: 14px!important;
+}
+
+.top-header-link:hover {
+    text-decoration: none;
+}
+
 /* header-social-icons */
 
-.header-social-icon {
+.top-header-social-icon {
     color: white !important;
     font-size: small !important;
     line-height: 2 !important;
@@ -212,7 +246,7 @@ a:hover {
 
 /* Hover */
 
-.header-social-icon:hover {
+.top-header-social-icon:hover {
     color: #03b664 !important;
 }
 
@@ -230,8 +264,7 @@ a:hover {
     background-color: #03b664 !important;
     color: white !important;
 }
-
-.fab:before {
+a > i.fab.footer-social-icon::before{
     position: relative;
     top: 10.8px;
     left: 0.4px;
@@ -283,13 +316,7 @@ a.nav-link {
     text-decoration-color: black !important;
 }
 
-.header_links {
-    font-size: 14px!important;
-}
 
-.header_links:hover {
-    text-decoration: none;
-}
 
 /* input.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required{
     background-color: blue !important;

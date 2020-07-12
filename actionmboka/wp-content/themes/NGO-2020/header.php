@@ -26,24 +26,23 @@
 <body>
 
     <!-- top contact area -->
-    <div class="container-fluid py-1 text-white top-header">
+    <div class="container-fluid py-1 text-white top-header border">
         <div class="container">
             <div class="row">
-                <div class="col-lg-4">
-                    <a href="mailto:" class="m-0 mt-1 header_links">
+                <div class="col-lg-8 col-md-8 border">
+                    <a href="mailto:" class="m-0 mt-1 top-header-link">
                         <i class="fas fa-envelope px-2"></i>
                         info@actionsmboka.com
                     </a>
-                    <a href="tel:+243-814320-372" class="m-0 mt-1 header_links">
+                    <a href="tel:+243-814320-372" class="m-0 mt-1 top-header-link">
                         <i class="fas fa-phone fa-rotate-90 px-2"></i>
                         +243 814320 372
                     </a>
                 </div>
-                <div class="col-lg-8 text-right">
-
-                    <a href="#" class="header_links"><i class="fab fa-facebook-f px-2 header-social-icon"></i></a>
-                    <a href="#" class="header_links"><i class="fab fa-twitter px-3 header-social-icon"></i></a>
-                    <a href="#" class="header_links"><i class="fab fa-instagram px-2 header-social-icon"></i></a>
+                <div class="col-4 text-right border">
+                    <a href="#" class="top-header-link"><i class="fab fa-facebook-f px-2 top-header-social-icon"></i></a>
+                    <a href="#" class="top-header-link"><i class="fab fa-twitter px-3 top-header-social-icon"></i></a>
+                    <a href="#" class="top-header-link"><i class="fab fa-instagram px-2 top-header-social-icon"></i></a>
 
                     <!-- <div class="col-12">
                         <div class="row">
@@ -62,7 +61,7 @@
         <div class="container">
             <!-- start navbar -->
             <nav class="navbar navbar-expand-lg navbar-light p-0">
-                <a class="navbar-brand col-2" href="<?php echo home_url( '/' ) ?>">
+                <a class="navbar-brand col-sm-2 col-4" href="<?php echo home_url( '/' ) ?>">
                     <img src="<?php bloginfo('template_url'); ?>/assets/images/logo.png" class="img-fluid" alt="">
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -80,7 +79,7 @@
                             'fallback_cb'    => 'Bootstrap_NavWalker::fallback', // For menu fallback
                         ))
                     ?>
-                    <a href="<?php echo home_url( '/make-donation' ) ?>" class="btn btn-warning py-2 px-4 rounded-sm ml-3" style="font-size: small; font-weight: 600;">DONATE NOW</a>
+                    <a href="<?php echo home_url( '/make-donation' ) ?>" class="btn btn-warning py-2 px-4 rounded-sm ml-lg-3 ml-2" style="font-size: small; font-weight: 600;">DONATE NOW</a>
                 </div>
             </nav>
               <!-- end navbar -->
