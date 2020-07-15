@@ -1,18 +1,18 @@
 <!-- become a donar -->
-<div class="col-lg-12 borders" style="padding: 0px 130px;">
-        <div class="container borders rounded-lg shadow border-primary p-5 text-white" style="background-color: #03b664; top: 100px; position: relative;">
+<div class="col-lg-12 borders become-a-donar-col-lg-12-responsive" style="padding: 0px 130px;">
+        <div class="container rounded-lg shadow p-sm-5 py-3 text-white become-a-donar-container-responsive" style="background-color: #03b664; top: 100px; position: relative;">
             <div class="col-lg-12 borders p-2">
                 <div class="col-lg-8 borders text-center m-auto">
-                    <h1 class="myfont1 text-center m-0">Become a Donar</h1>
-                    <p class="text-center mb-4" style="font-size: small;">Even students who are just learning to write,school and middle school, they can begin to create paragraphs that include all of the necessary they should be able to write a paragraph</p>
-                    <a href="<?php echo home_url( '/make-donation' ) ;?>" class="btn btn-warning col-6 rounded shadow-sm py-2" style="font-weight: 500;">DONATE</a>
+                    <h1 class="myfont1 text-center m-0 become-a-donar-title-responsive">Become a Donar</h1>
+                    <p class="text-center mb-sm-4 mb-3 become-a-donar-para-responsive" style="font-size: small;">Even students who are just learning to write,school and middle school, they can begin to create paragraphs that include all of the necessary they should be able to write a paragraph</p>
+                    <a href="<?php echo home_url( '/make-donation' ) ;?>" class="btn btn-warning col-6 rounded shadow-sm py-2 become-a-donar-btn-responsive" style="font-weight: 500;">DONATE</a>
                 </div>
             </div>
         </div>
     </div>
 
     <!-- footer -->
-    <footer class="bg-light" style="padding-top: 10rem; padding-bottom: 3rem;">
+    <footer class="bg-light footer-tag-responsive" style="padding-top: 10rem; padding-bottom: 3rem;">
         <div class="container borders">
             <div class="col-lg-12 borders">
                 <div class="row">

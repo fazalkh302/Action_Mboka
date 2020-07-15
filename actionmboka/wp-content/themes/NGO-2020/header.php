@@ -26,10 +26,10 @@
 <body>
 
     <!-- top contact area -->
-    <div class="container-fluid py-1 text-white top-header border">
+    <div class="container-fluid py-1 text-white top-header">
         <div class="container">
             <div class="row">
-                <div class="col-lg-8 col-md-8 border">
+                <div class="col-lg-8 col-md-8">
                     <a href="mailto:" class="m-0 mt-1 top-header-link">
                         <i class="fas fa-envelope px-2"></i>
                         info@actionsmboka.com
@@ -39,7 +39,7 @@
                         +243 814320 372
                     </a>
                 </div>
-                <div class="col-4 text-right border">
+                <div class="col-4 text-right">
                     <a href="#" class="top-header-link"><i class="fab fa-facebook-f px-2 top-header-social-icon"></i></a>
                     <a href="#" class="top-header-link"><i class="fab fa-twitter px-3 top-header-social-icon"></i></a>
                     <a href="#" class="top-header-link"><i class="fab fa-instagram px-2 top-header-social-icon"></i></a>

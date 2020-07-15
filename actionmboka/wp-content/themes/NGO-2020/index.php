@@ -27,7 +27,7 @@
     </div>
 </section> -->
 
-<div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+<div id="carouselExampleCaptions" class="carousel slide slider-responsive mb-5" data-ride="carousel">
   <ol class="carousel-indicators">
     <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
     <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
@@ -49,7 +49,7 @@
       </div>
     </div>
     <div class="carousel-item">
-      <img src="<?php bloginfo('template_url');?>/assets/images/c3.jpg" class="d-block w-100" alt="">
+      <img src="<?php bloginfo('template_url');?>/assets/images/s33.png" class="d-block w-100" alt="">
       <div class="carousel-caption d-none d-md-block">
         <h5>Third slide label</h5>
         <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
@@ -83,7 +83,7 @@
     <div class="col-lg-12">
         <div class="row justify-content-center">
             <div class="col-lg-6">
-                <h2 class="h2 text-center myfont1" style="margin-bottom: unset !important;">For Good Recent Causes</h2>
+                <h2 class="h2 text-center myfont1 for-good-title-responsive" style="margin-bottom: unset !important;">For Good Recent Causes</h2>
             </div>
         </div>
         <div class="row justify-content-center">
@@ -97,15 +97,15 @@
 <!-- END-for-good-recent-causes-heading -->
 
 <!-- START for-good-recent-causes-CARDs -->
-<div class="container mt-5 css" style="margin-bottom: 7rem;">
+<div class="container mt-sm-3 css mb-5" style="margin-bottom: 4rems;">
     <div class="card-deck">
         <!-- START Large-Card -->
         <!-- START 1st-card -->
         <div class="card">
             <img src="<?php bloginfo('template_url');?>/assets/images/c1.jpg" class="card-img-top">
-            <div class="card-body rounded-lg shadow">
-                <h5 class="card-title myfont1">Education for every child.</h5>
-                <p class="card-text font-small text-muted mb-4">This is a longer card with supporting text below as a
+            <div class="card-body col-sm rounded-lg shadow">
+                <h5 class="card-title myfont1 mb-sm-2 mb-1">Education for every child.</h5>
+                <p class="card-text font-small text-muted mb-2">This is a longer card with supporting text below as a
                     natural lead-in to additional content. This content is a little bit longer.</p>
                 <!-- <div class="progress mt-4 mb-2">
                     <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25"
@@ -122,9 +122,9 @@
         <!-- START 2nd-card -->
         <div class="card">
             <img src="<?php bloginfo('template_url');?>/assets/images/c1.jpg" class="card-img-top">
-            <div class="card-body rounded-lg shadow">
-                <h5 class="card-title myfont1">Education for every child.</h5>
-                <p class="card-text font-small text-muted mb-4">This is a longer card with supporting text below as a
+            <div class="card-body col-sm rounded-lg shadow">
+                <h5 class="card-title myfont1 mb-sm-2 mb-1">Education for every child.</h5>
+                <p class="card-text font-small text-muted mb-2">This is a longer card with supporting text below as a
                     natural lead-in to additional content. This content is a little bit longer.</p>
                 <!-- <div class="progress mt-4 mb-2">
                     <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25"
@@ -141,9 +141,9 @@
         <!-- START 3rd-card -->
         <div class="card">
             <img src="<?php bloginfo('template_url');?>/assets/images/c1.jpg" class="card-img-top">
-            <div class="card-body rounded-lg shadow">
-                <h5 class="card-title myfont1">Education for every child.</h5>
-                <p class="card-text font-small text-muted mb-4">This is a longer card with supporting text below as a
+            <div class="card-body col-sm rounded-lg shadow">
+                <h5 class="card-title myfont1 mb-sm-2 mb-1">Education for every child.</h5>
+                <p class="card-text font-small text-muted mb-2">This is a longer card with supporting text below as a
                     natural lead-in to additional content. This content is a little bit longer.</p>
                 <!-- <div class="progress mt-4 mb-2">
                     <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25"
@@ -163,71 +163,81 @@
 <!-- END-for-good-recent-causes-CARDs -->
 
 <!-- START - MAIN-Container of read-more-section-with-small-cards -->
-<div class="container border-primary borders px-0">
+<div class="container border-primary borders px-0 mb-sm-5 mb-4">
     <div class="col-lg-12 border-primary borders">
         <div class="row">
             <!-- START read-more-section -->
             <div class="col-lg-5 borders mr-auto border-danger">
-                <h1 class="h2 myfont1 font mb-3">We help thousands of children to get their Education.</h1>
-                <h6 class="m-0 text-muted font-small">Even students who are just learning to write,school and middle
+                <h1 class="h2 myfont1 font mb-3 we-help-title-responsive">
+                    We help thousands of children to get their Education.
+                </h1>
+                <h6 class="m-0 text-muted font-small mb-sm-0 mb-3">
+                    Even students who are just learning to write,school and middle
                     school, they can begin to create paragraphs that include all of the necessary elements. Once a
                     student reaches high school, they should be able to write a paragraph that has a distinct thesis and
-                    also includes supporting arguments.</h6>
+                    also includes supporting arguments.
+                </h6>
                 <br>
-                <h6 class="text-muted font-small mb-4">Even students who are just learning to write. Once a student
+                <h6 class="text-muted font-small mb-4 hide-para-responsive">
+                    Even students who are just learning to write. Once a student
                     reaches high school, they should be able to write a paragraph that has a distinct thesis and also
-                    includes supporting arguments.</h6>
-                <button type="button" class="btn btn-warning myfont1 py-2 px-4 rounded-sm">Read More</button>
+                    includes supporting arguments.
+                </h6>
+                <button type="button" class="btn btn-warning myfont1 py-2 px-4 rounded-sm btn-responsive">Read More</button>
             </div>
             <!-- END read-more-section -->
 
             <!-- START small-cards -->
             <div class="col-lg-6 border-warning borders">
+                <!-- START 1st Card -->
                 <div class="card mb-3 shadow-sms border-0" style="max-width: 540px;">
                     <div class="row no-gutters">
-                        <div class="col-md-3">
+                        <div class="col-3 col-3-responsive">
                             <img src="<?php bloginfo('template_url');?>/assets/images/c1.jpg" class="card-img"
                                 alt="...">
                         </div>
-                        <div class="col-md-8">
+                        <div class="col-8">
                             <div class="card-body py-0">
-                                <h6 class="card-title mb-1" style="margin-bottom: 0.3remsads;">MAKE DONATION</h6>
+                                <h6 class="card-title mb-1 small-card-title-responsive">MAKE DONATION</h6>
                                 <p class="card-text font-small text-muted">This is a wider card with to additional
                                     content. This content is a little bit longer.</p>
                             </div>
                         </div>
                     </div>
                 </div>
+                <!-- START 2nd Card -->
                 <div class="card mb-3 shadow-sms border-0" style="max-width: 540px;">
                     <div class="row no-gutters">
-                        <div class="col-md-3">
+                        <div class="col-3">
                             <img src="<?php bloginfo('template_url');?>/assets/images/c1.jpg" class="card-img"
                                 alt="...">
                         </div>
-                        <div class="col-md-8">
+                        <div class="col-8">
                             <div class="card-body py-0">
-                                <h6 class="card-title mb-1">BECOME A VOLUNTEER</h6>
+                                <h6 class="card-title mb-1 small-card-title-responsive">BECOME A VOLUNTEER</h6>
                                 <p class="card-text font-small text-muted">This is a wider card with to additional
                                     content. This content is a little bit longer.</p>
                             </div>
                         </div>
                     </div>
                 </div>
+                <!-- START 3rd Card -->
                 <div class="card mb-3 shadow-sms border-0" style="max-width: 540px;">
                     <div class="row no-gutters">
-                        <div class="col-md-3">
+                        <div class="col-3">
                             <img src="<?php bloginfo('template_url');?>/assets/images/c1.jpg" class="card-img"
                                 alt="...">
                         </div>
-                        <div class="col-md-8">
+                        <div class="col-8">
                             <div class="card-body py-0">
-                                <h6 class="card-title mb-1">GIVE SCHOLARSHIP</h6>
+                                <h6 class="card-title mb-1 small-card-title-responsive">GIVE SCHOLARSHIP</h6>
                                 <p class="card-text font-small text-muted">This is a wider card with to additional
                                     content. This content is a little bit longer.</p>
                             </div>
                         </div>
                     </div>
                 </div>
+                <!-- END 3rd Card -->
             </div>
             <!-- END small-cards -->
         </div>
@@ -235,14 +245,24 @@
 </div>
 <!-- END - MAIN-Container of read-more-section-with-small-cards -->
 
-<!-- START who-we-are -->
-<section class="who-we-are py-5">
-    <div class="container-fluid p-0 text-white">
-        <div class="row m-0">
-            <div class="col-6 highlight-box px-0 py-5">
-                <div class="content-box p-5">
-                    <h1 class="myfont1">WHO WE ARE</h1>
-                    <div class="para-box mb-5">
+<!-- START Who-we-are Section -->
+<div class="container-fluid p-0 mb-5">
+    <div class="card border-0">
+        <div class="row flex-row-reverse no-gutters">
+            <!-- START Image-Section -->
+            <div class="col-md-6 col-md-6-responsive">
+                <!-- <picture>
+                    <source media="(min-width: 690px)" srcset="<?php bloginfo('template_url');?>/assets/images/y3.jpg">
+                    <img src="<?php bloginfo('template_url');?>/assets/images/d2.jpg" class="w-100" style="height: 100% !important;">
+                </picture> -->
+                <img class="card-img rounded-0 h-100" src="<?php bloginfo('template_url');?>/assets/images/y3.jpg">
+            </div>
+            <!-- END Image-Section -->
+            <!-- START Discription Area -->
+            <div class="col-md-6 pt-md-5 pb-2" style="background-color: #03b664 !important;">
+                <div class="card-body">
+                    <div class="col-12 text-white">
+                    <h1 class="myfont1 text-sm-left text-center">WHO WE ARE</h1>
                         <p class="myfont1" style="font-size: small;">
                             Actions Mboka is a work of a former student in USA Jacques Ngbondu and his lovely wife
                             Carine Ngbondu. Created in June 2020 by the couple, the association is a result of a long
@@ -250,48 +270,41 @@
                             strategies in Mongala province, Kinshasa and the country in general.
                         </p>
                         <p class="myfont1" style="font-size: small;">
-                            Threfore, to partcipate in the development event in order to growing the local community,
-                            the couple Jacques Ngbondu, decede to create Actions Mboka to contribute to local
-                            development by helping the local associations to improve their living social conditions.
-                            With a national vision, Actions Mboka works to reduce poverty, mentalities change of he
-                            local population and promote the local development of Mongala province.
+                            Actions Mboka is a work of a former student in USA Jacques Ngbondu and his lovely wife
+                            Carine Ngbondu. Created in June 2020 by the couple, the association is a result of a long
+                            observation of the precariousness social situation and the lack of local development
+                            strategies in Mongala province, Kinshasa and the country in general.
                         </p>
+                        <a href="<?php echo home_url( '/make-donation' ) ?>" class="btn btn-warning w-50s col-sm-4 col-12 myfont1 py-2">Who We Are</A>
                     </div>
-                    <a href="<?php echo home_url( '/make-donation' ) ?>" class="btn btn-warning w-50 myfont1 py-2 px-4">Who We Are</A>
                 </div>
             </div>
-            <div class="col-6 px-0">
-                <div class="image-box">
-                    <img class="w-100"
-                        src="<?php bloginfo('template_url');?>/assets/images/charity-donation-donor-collect.png">
-                </div>
-            </div>
+            <!-- END Discription Area -->
         </div>
     </div>
-    </div>
-</section>
-<!-- END who-we-are -->
+</div>
+<!-- END Who-we-are Section -->
 
 <!-- START - Main-Container of what-we-doo -->
 <div class="container px-0">
     <div class="col-lg-12 text-center mb-4">
-        <h2 class="myfont1 m-0">What We Do</h2>
-        <p class="font-small text-muted">This is a wider card with to additional content. This content is <br> This
+        <h2 class="myfont1 m-0 what-we-do-title-responsive">What We Do</h2>
+        <p class="font-small text-muted">This is a wider card with to additional content. This content is <br class="br-hide"> This
             content is a little bit</p>
     </div>
     <div class="col-lg-12">
         <div class="row">
             <!-- START 1st-card -->
-            <div class="col-lg-4">
+            <div class="col-lg-4 mb-3">
                 <a href="#" target="_blank" rel="noopener noreferrer" class="card-link text-black">
-                    <div class="col-lg-12 shadow-sm rounded-lg py-4 bg-light">
-                        <div class="row">
-                            <div class="col-lg-3 m-auto">
+                    <div class="col-lg-12 shadow-sm rounded-lg py-sm-4 py-3 bg-light">
+                        <div class="row justify-content-sm-start justify-content-center">
+                            <div class="col-lg-3 m-auto text-sm-left text-center pb-sm-0 pb-1">
                                 <i class="fas fa-book-open" style="font-size: 50px;"></i>
                             </div>
-                            <div class="col-9 px-0">
-                                <h6 class="m-0">Education</h6>
-                                <p style="margin-top: 0.2rem !important; font-size: small;" class="text-muted m-0">This
+                            <div class="col-9 px-0 text-sm-left text-center">
+                                <h6 class="m-0 icon-title-responsive">Education</h6>
+                                <p style="margin-top: 0.2rem !important; font-size: small;" class="text-muted m-0 icon-para-responsive">This
                                     is a wider card with to additional <br> additional content.</p>
                             </div>
                         </div>
@@ -299,16 +312,16 @@
                 </a>
             </div>
             <!-- START 2nd-card -->
-            <div class="col-lg-4">
+            <div class="col-lg-4 mb-3">
                 <a href="#" target="_blank" rel="noopener noreferrer" class="card-link text-black">
-                    <div class="col-lg-12 shadow-sm rounded-lg py-4 bg-light">
-                        <div class="row">
-                            <div class="col-lg-3 m-auto">
+                    <div class="col-lg-12 shadow-sm rounded-lg py-sm-4 py-3 bg-light">
+                        <div class="row justify-content-sm-start justify-content-center">
+                            <div class="col-lg-3 m-auto text-sm-left text-center pb-sm-0 pb-1">
                                 <i class="fas fa-book-open" style="font-size: 50px;"></i>
                             </div>
-                            <div class="col-9 px-0">
-                                <h6 class="m-0">Education</h6>
-                                <p style="margin-top: 0.2rem !important; font-size: small;" class="text-muted m-0">This
+                            <div class="col-9 px-0 text-sm-left text-center">
+                                <h6 class="m-0 icon-title-responsive">Education</h6>
+                                <p style="margin-top: 0.2rem !important; font-size: small;" class="text-muted m-0 icon-para-responsive">This
                                     is a wider card with to additional <br> additional content.</p>
                             </div>
                         </div>
@@ -318,14 +331,14 @@
             <!-- START 3rd-card -->
             <div class="col-lg-4 mb-4">
                 <a href="#" target="_blank" rel="noopener noreferrer" class="card-link text-black">
-                    <div class="col-lg-12 shadow-sm rounded-lg py-4 bg-light">
-                        <div class="row">
-                            <div class="col-lg-3 m-auto">
+                    <div class="col-lg-12 shadow-sm rounded-lg py-sm-4 py-3 bg-light">
+                        <div class="row justify-content-sm-start justify-content-center">
+                            <div class="col-lg-3 m-auto text-sm-left text-center pb-sm-0 pb-1">
                                 <i class="fas fa-book-open" style="font-size: 50px;"></i>
                             </div>
-                            <div class="col-9 px-0">
-                                <h6 class="m-0">Education</h6>
-                                <p style="margin-top: 0.2rem !important; font-size: small;" class="text-muted m-0">This
+                            <div class="col-9 px-0 text-sm-left text-center">
+                                <h6 class="m-0 icon-title-responsive">Education</h6>
+                                <p style="margin-top: 0.2rem !important; font-size: small;" class="text-muted m-0 icon-para-responsive">This
                                     is a wider card with to additional <br> additional content.</p>
                             </div>
                         </div>
@@ -333,7 +346,7 @@
                 </a>
             </div>
             <!-- START 4th-card -->
-            <div class="col-lg-4">
+            <div class="col-lg-4 hide-card-in-responsive">
                 <a href="#" target="_blank" rel="noopener noreferrer" class="card-link text-black">
                     <div class="col-lg-12 shadow-sm rounded-lg py-4 bg-light">
                         <div class="row">
@@ -350,7 +363,7 @@
                 </a>
             </div>
             <!-- START 5th-card -->
-            <div class="col-lg-4">
+            <div class="col-lg-4 hide-card-in-responsive">
                 <a href="#" target="_blank" rel="noopener noreferrer" class="card-link text-black">
                     <div class="col-lg-12 shadow-sm rounded-lg py-4 bg-light">
                         <div class="row">
@@ -367,7 +380,7 @@
                 </a>
             </div>
             <!-- START 6th-card -->
-            <div class="col-lg-4">
+            <div class="col-lg-4 hide-card-in-responsive">
                 <a href="#" target="_blank" rel="noopener noreferrer" class="card-link text-black">
                     <div class="col-lg-12 shadow-sm rounded-lg py-4 bg-light">
                         <div class="row">

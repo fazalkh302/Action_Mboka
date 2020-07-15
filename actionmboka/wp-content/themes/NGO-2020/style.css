@@ -23,9 +23,6 @@ Use it to make something cool, have fun, and share what you've learned with othe
     .top-header .col-lg-8{
         text-align: center !important;
     }
-    .top-header .col-lg-8s .top-header-link{
-        display: block !important;
-    }
     .top-header .top-header-link{
         font-size: 12px !important;
     }
@@ -40,7 +37,84 @@ Use it to make something cool, have fun, and share what you've learned with othe
     }
 }
 
-@media(max-width: 375px){}
+/* MOBILE-Size-RESPONSIVE */
+@media(max-width: 500px){
+    /* this class used only for slider-responsive. This class name is none styling  */
+    .slider-responsive{
+        margin-bottom: 1.5rem !important;
+    }
+    /* The line for the title and the title is 'For Good Recent Causes' */
+    .container .col-lg-12 .row .col-lg-6 .for-good-title-responsive , .we-help-title-responsive , .what-we-do-title-responsive{
+        font-size: larger !important;
+    }
+    /* This line is the title of the paragraph and this paragraph is for this title 'For Good Recent causes' */
+    .container .col-lg-12 .row .col-lg-6 .font-small{
+        font-size: 11px !important;
+    }
+    /* This line is for the <br> tag inside the paragraph and this paragraph is for this title 'For Good Recent causes' */
+    .container .col-lg-12 .row .col-lg-6 .font-small br , .br-hide , .hide-card-in-responsive{
+        display: none !important;
+    }
+    /*  */
+    .container .col-lg-12 .row .col-lg-5 br , .hide-para-responsive , .col-md-6-responsive{
+        display: none !important;
+    }
+    /*  */
+    .container .col-lg-12 .row .col-lg-5 .btn-responsive{
+        font-size: smaller !important;
+        padding: 6px 20px !important;
+        margin-bottom: 1rem !important;
+    }
+    /*  */
+    .col-lg-6 .card .row .col-3-responsive{
+        margin-top: 3px !important;
+    }
+    /*  */
+    .col-lg-6 .card .row .col-8 .small-card-title-responsive{
+        font-size: 14px !important;
+    }
+    /* This line for Icons and this icons inside the Small-Cards */
+    i.fas.fa-book-open{
+        font-size: 35px !important;
+    }
+    .container .col-lg-12 .row .col-lg-4 .col-lg-12 .col-9 .icon-title-responsive{
+        font-size: smaller !important;
+    }
+    .container .col-lg-12 .row .col-lg-4 .col-lg-12 .col-9 .icon-para-responsive{
+        font-size: 11px !important;
+    }
+    /* START FOOTER RESPONSIVE */
+    /*  */
+    .become-a-donar-col-lg-12-responsive{
+        padding: unset !important;
+    }
+    .become-a-donar-container-responsive{
+        top: 40px !important;
+        border-radius: unset !important;
+        padding-right: unset !important;
+        padding-left: unset !important;
+    }
+    .become-a-donar-title-responsive{
+        font-size: 2rem !important;
+    }
+    .become-a-donar-para-responsive{
+        font-size: 12px !important;
+        margin-top: 5px !important;
+    }
+    .become-a-donar-btn-responsive{
+        font-size: smaller !important;
+        padding: 5px 0px !important;
+    }
+    .footer-tag-responsive{
+        padding-top: 6rem !important;
+    }
+    /* END FOOTER RESPONSIVE */
+}
+@media(max-width: 321px){
+    .top-header .col-lg-8 .top-header-link{
+        display: block !important;
+    }
+}
 
 /* MEDIA QUERIES - FULL RESPONSIVE */
 
@@ -298,12 +372,11 @@ a.nav-link {
     background-color: #f2f3f7 !important;
 }
 
-.col-lg-12.rounded-lg.py-4.bg-light:hover .text-muted {
+.container .col-lg-12 .row .col-lg-4 .col-lg-12.bg-light:hover{
     background-color: #03b664 !important;
     color: white !important;
 }
-
-.col-lg-12.rounded-lg.py-4.bg-light:hover {
+.container .col-lg-12 .row .col-lg-4 .col-lg-12.bg-light:hover .text-muted{
     background-color: #03b664 !important;
     color: white !important;
 }
