@@ -29,7 +29,7 @@
     <div class="container-fluid py-1 text-white top-header">
         <div class="container">
             <div class="row">
-                <div class="col-lg-8 col-md-8">
+                <div class="col-lg-8 col-md-8 mb-sm-0 mb-2">
                     <a href="mailto:" class="m-0 mt-1 top-header-link">
                         <i class="fas fa-envelope px-2"></i>
                         info@actionsmboka.com
@@ -111,7 +111,7 @@ if(GTranslateGetCurrentLang() != null)jQuery(document).ready(function() {var lan
     </div>
     
     <!-- navbar in container -->
-    <div class="container-fluid" style="background-color: white; box-shadow: -1px -41px 64px -9px !important; border-bottom: 1px solid #a9e0a9; padding: 10px 0px;">
+    <div class="container-fluid" style="background-color: white; box-shadow: -1px -41px 64px -9px !important; border-bottom: 1px solid #a1b5e6; padding: 10px 0px;">
         <div class="container">
             <!-- start navbar -->
             <nav class="navbar navbar-expand-lg navbar-light p-0">

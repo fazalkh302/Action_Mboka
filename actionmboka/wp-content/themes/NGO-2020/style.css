@@ -116,7 +116,17 @@ Use it to make something cool, have fun, and share what you've learned with othe
 }
 @media(max-width: 321px){
     .top-header .col-lg-8 .top-header-link{
-        display: block !important;
+        /* display: block !important; */
+    }
+    .top-header .col-lg-8 {
+        text-align: start !important;
+    }
+    .top-header .top-header-link {
+        font-size: 10.5px !important;
+        /* margin-bottom: 1rem !important; */
+    }
+    div#wpadminbar{
+        position: relative !important;
     }
 }
 
