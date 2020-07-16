@@ -108,6 +108,10 @@ Use it to make something cool, have fun, and share what you've learned with othe
     .footer-tag-responsive{
         padding-top: 6rem !important;
     }
+    .px-0-responsive{
+        padding-left: unset !important;
+        padding-right: unset !important;
+    }
     /* END FOOTER RESPONSIVE */
 }
 @media(max-width: 321px){

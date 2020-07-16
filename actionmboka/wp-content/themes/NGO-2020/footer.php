@@ -16,8 +16,8 @@
         <div class="container borders">
             <div class="col-lg-12 borders">
                 <div class="row">
-                    <div class="col-lg-4 px-0 borders">
-                        <div class="col-4 borders px-0 mb-4">
+                    <div class="col-lg-4 px-0">
+                        <div class="col-4 px-0 mb-4">
                             <img src="<?php bloginfo('template_url'); ?>/assets/images/Action_20MBOKA-04 (1).png" class="borders card-img" alt="">
                         </div>
                         <div class="col-lg-12 px-0">
@@ -31,34 +31,50 @@
                             <a href="#" class="text-body"><i class="fab fa-instagram bg-white shadow-sm mx-1 rounded-circle footer-social-icon"></i></a>
                         </div>
                     </div>
-                    <div class="col-lg-2 borders">
-                        <div class="col-lg-12 borders mb-4">
+                    <div class="col-lg-2 mb-sm-0 mb-3 mt-sm-0 mt-4 px-0-responsive">
+                        <div class="col-lg-12 mb-sm-4 mb-3 px-0-responsive">
                             <h6 class="myfont1s">Service</h6>
                         </div>
-                        <div class="col-lg-12 borders">
-                            <a class="footer-link" href="#"><p class="myfont1 text-muted" style="font-size: small;">Donate</p></a>
-                            <a class="footer-link" href="#"><p class="myfont1 text-muted" style="font-size: small;">Volunteer</p></a>
-                            <a class="footer-link" href="#"><p class="myfont1 text-muted" style="font-size: small;">Donation</p></a>
-                            <a class="footer-link" href="#"><p class="myfont1 text-muted" style="font-size: small;">Chairty</p></a>
+                        <div class="col-lg-12 px-0-responsive">
+                            <a class="footer-link" href="#">
+                                <p class="myfont1 text-muted mb-sm-3 mb-2" style="font-size: small;">Donate</p>
+                            </a>
+                            <a class="footer-link" href="#">
+                                <p class="myfont1 text-muted mb-sm-3 mb-2" style="font-size: small;">Volunteer</p>
+                            </a>
+                            <a class="footer-link" href="#">
+                                <p class="myfont1 text-muted mb-sm-3 mb-2" style="font-size: small;">Donation</p>
+                            </a>
+                            <a class="footer-link" href="#">
+                                <p class="myfont1 text-muted" style="font-size: small;">Chairty</p>
+                            </a>
                         </div>
                     </div>
-                    <div class="col-lg-2 borders">
-                        <div class="col-lg-12 borders mb-4">
+                    <div class="col-lg-2 mb-sm-0 mb-3 px-0-responsive">
+                        <div class="col-lg-12 borders mb-sm-4 mb-3 px-0-responsive">
                             <h6 class="myfont1s">Our Links</h6>
                         </div>
-                        <div class="col-lg-12 borders">
-                            <a class="footer-link" href="#"><p class="myfont1 text-muted" style="font-size: small;">Contact Us</p></a>
-                            <a class="footer-link" href="#"><p class="myfont1 text-muted" style="font-size: small;">About Us</p></a>
-                            <a class="footer-link" href="#"><p class="myfont1 text-muted" style="font-size: small;">Donation</p></a>
-                            <a class="footer-link" href="#"><p class="myfont1 text-muted" style="font-size: small;">Volunteer</p></a>
+                        <div class="col-lg-12 px-0-responsive">
+                            <a class="footer-link" href="#">
+                                <p class="myfont1 text-muted mb-sm-3 mb-2" style="font-size: small;">Contact Us</p>
+                            </a>
+                            <a class="footer-link" href="#">
+                                <p class="myfont1 text-muted mb-sm-3 mb-2" style="font-size: small;">About Us</p>
+                            </a>
+                            <a class="footer-link" href="#">
+                                <p class="myfont1 text-muted mb-sm-3 mb-2" style="font-size: small;">Donation</p>
+                            </a>
+                            <a class="footer-link" href="#">
+                                <p class="myfont1 text-muted" style="font-size: small;">Volunteer</p>
+                            </a>
                         </div>
                     </div>
-                    <div class="col-lg-4">
-                        <div class="col-lg-12 mb-4">
+                    <div class="col-lg-4 px-0-responsive">
+                        <div class="col-lg-12 mb-4 px-0-responsive">
                             <h6 class="myfont1s mb-1">Subscribe</h6>
                             <p class="myfont1 text-muted" style="font-size: small;">Even students who are just</p>
                         </div>
-                        <div class="col-lg-12">
+                        <div class="col-lg-12 px-0-responsive">
                             <form action="" method="post" class="">
                                 <input type="email" class="form-control col mb-2 py-4 my-form-control" placeholder="Enter your Email for Donate" required>
                                 <button type="button" class="btn btn-warning col-5 myfont1 py-2 px-4">Send</button>
