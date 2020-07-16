@@ -259,7 +259,7 @@
             </div>
             <!-- END Image-Section -->
             <!-- START Discription Area -->
-            <div class="col-md-6 pt-md-5 pb-2" style="background-color: #03b664 !important;">
+            <div class="col-md-6 pt-md-5 pb-2" style="background-color: #4362ae !important;">
                 <div class="card-body">
                     <div class="col-12 text-white">
                     <h1 class="myfont1 text-sm-left text-center">WHO WE ARE</h1>

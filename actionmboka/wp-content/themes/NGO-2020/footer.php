@@ -1,6 +1,6 @@
 <!-- become a donar -->
 <div class="col-lg-12 borders become-a-donar-col-lg-12-responsive" style="padding: 0px 130px;">
-        <div class="container rounded-lg shadow p-sm-5 py-3 text-white become-a-donar-container-responsive" style="background-color: #03b664; top: 100px; position: relative;">
+        <div class="container rounded-lg shadow p-sm-5 py-3 text-white become-a-donar-container-responsive" style="background-color: #4362ae; top: 100px; position: relative;">
             <div class="col-lg-12 borders p-2">
                 <div class="col-lg-8 borders text-center m-auto">
                     <h1 class="myfont1 text-center m-0 become-a-donar-title-responsive">Become a Donar</h1>
@@ -86,7 +86,7 @@
         </div>
     </footer>
 
-    <div class="container-fluid p-3 text-center" style="background-color:#03b664 !important; color: white !important;">
+    <div class="container-fluid p-3 text-center" style="background-color:#4362ae !important; color: white !important;">
         <h6 class="m-0 font-small">&copyCopyright <?php echo date('Y'); ?> <?php bloginfo('name'); ?> - Design By: <a href="#" class="text-warning">@FAZAL</a></h6>
     </div>
 

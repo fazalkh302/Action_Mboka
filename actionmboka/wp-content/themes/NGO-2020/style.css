@@ -17,7 +17,7 @@ Use it to make something cool, have fun, and share what you've learned with othe
 /* MEDIA QUERIES - FULL RESPONSIVE */
 
 @media(max-width: 767px){
-    .top-header .col-4{
+    .top-header .top-head-icon-responsive{
         display: none !important;
     }
     .top-header .col-lg-8{
@@ -131,8 +131,8 @@ Use it to make something cool, have fun, and share what you've learned with othe
     font-family: myfont2 !important;
 }
 
-/* 1st top-nav */
 
+/* 1st top-nav */
 @font-face {
     font-family: myfont1;
     src: url(assets/fonts/Basic-Regular.ttf);
@@ -150,13 +150,12 @@ a:hover {
     font-size: 12px !important;
     font-weight: 500 !important;
 }
-
-/* .col-lg-3 .col-12 .row .fab:before {
-    top: unset !important;
-    left: unset !important;
-} */
-
 /* end-1st-top-nav */
+
+li.menu-item a.nav-link{
+    color: #4362ae !important;
+}
+
 .nf-form-wrap.ninja-forms-form-wrap {
     padding-top: 50px!important;
 }
@@ -183,13 +182,14 @@ a:hover {
 
 /* Inner Page Header */
 .inner-page-header{
-    padding: 20px 0px;
+    padding: 30px 0px;
     border-bottom: 5px solid #03b664;
 }
 .inner-page-header h2{
     color: #03b664;
     text-transform: uppercase;
     font-weight: bold;
+    margin: 0 !important;
 }
 
 .page_main .content p {
@@ -377,11 +377,11 @@ a.nav-link {
 }
 
 .container .col-lg-12 .row .col-lg-4 .col-lg-12.bg-light:hover{
-    background-color: #03b664 !important;
+    background-color: #4362ae !important;
     color: white !important;
 }
 .container .col-lg-12 .row .col-lg-4 .col-lg-12.bg-light:hover .text-muted{
-    background-color: #03b664 !important;
+    background-color: #4362ae !important;
     color: white !important;
 }
 
