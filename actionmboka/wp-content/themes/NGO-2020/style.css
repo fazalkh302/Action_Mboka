@@ -14,110 +14,158 @@ This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
 */
 
+/* nwes-page-card */
+.news_card .card-body .card-title{
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #1d2a3b;
+    font-weight: bold;
+    border-bottom: 2px solid #000;
+    padding-bottom: 20px;
+}
+.news_card .card-body .card-text{
+    font-size: 16px;
+
+}
+.news_card img {
+    width: 100%;
+    height: 400px;
+}
+
+.carousel-caption {
+    position: absolute;
+    right: 0;
+    bottom: 40%;
+    left: 15%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: left !important;
+}
+.carousel-caption h5 {
+    font-size: 60px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.carousel-caption > p {
+    font-size: 32px;
+    text-transform: lowercase;
+}
+
+.switcher .option {
+    position: absolute !important;
+}
 /* MEDIA QUERIES - FULL RESPONSIVE */
 
-@media(max-width: 767px){
-    .top-header .top-head-icon-responsive{
+@media (max-width: 767px) {
+    .top-header .top-head-icon-responsive {
         display: none !important;
     }
-    .top-header .col-lg-8{
+    .top-header .col-lg-8 {
         text-align: center !important;
     }
-    .top-header .top-header-link{
+    .top-header .top-header-link {
         font-size: 12px !important;
     }
 }
 
-@media(max-width: 991px){
-    nav .navbar-collapse .navbar-nav{
+@media (max-width: 991px) {
+    nav .navbar-collapse .navbar-nav {
         margin-bottom: 15px !important;
     }
-    .container-fluid .container nav{
+    .container-fluid .container nav {
         padding: 10px 0px !important;
     }
 }
 
 /* MOBILE-Size-RESPONSIVE */
-@media(max-width: 500px){
+@media (max-width: 500px) {
     /* this class used only for slider-responsive. This class name is none styling  */
-    .slider-responsive{
+    .slider-responsive {
         margin-bottom: 1.5rem !important;
     }
     /* The line for the title and the title is 'For Good Recent Causes' */
-    .container .col-lg-12 .row .col-lg-6 .for-good-title-responsive , .we-help-title-responsive , .what-we-do-title-responsive{
+    .container .col-lg-12 .row .col-lg-6 .for-good-title-responsive,
+    .we-help-title-responsive,
+    .what-we-do-title-responsive {
         font-size: larger !important;
     }
     /* This line is the title of the paragraph and this paragraph is for this title 'For Good Recent causes' */
-    .container .col-lg-12 .row .col-lg-6 .font-small{
+    .container .col-lg-12 .row .col-lg-6 .font-small {
         font-size: 11px !important;
     }
     /* This line is for the <br> tag inside the paragraph and this paragraph is for this title 'For Good Recent causes' */
-    .container .col-lg-12 .row .col-lg-6 .font-small br , .br-hide , .hide-card-in-responsive{
+    .container .col-lg-12 .row .col-lg-6 .font-small br,
+    .br-hide,
+    .hide-card-in-responsive {
         display: none !important;
     }
     /*  */
-    .container .col-lg-12 .row .col-lg-5 br , .hide-para-responsive , .col-md-6-responsive{
+    .container .col-lg-12 .row .col-lg-5 br,
+    .hide-para-responsive,
+    .col-md-6-responsive {
         display: none !important;
     }
     /*  */
-    .container .col-lg-12 .row .col-lg-5 .btn-responsive{
+    .container .col-lg-12 .row .col-lg-5 .btn-responsive {
         font-size: smaller !important;
         padding: 6px 20px !important;
         margin-bottom: 1rem !important;
     }
     /*  */
-    .col-lg-6 .card .row .col-3-responsive{
+    .col-lg-6 .card .row .col-3-responsive {
         margin-top: 3px !important;
     }
     /*  */
-    .col-lg-6 .card .row .col-8 .small-card-title-responsive{
+    .col-lg-6 .card .row .col-8 .small-card-title-responsive {
         font-size: 14px !important;
     }
     /* This line for Icons and this icons inside the Small-Cards */
-    i.fas.fa-book-open{
+    i.fas.fa-book-open {
         font-size: 35px !important;
     }
-    .container .col-lg-12 .row .col-lg-4 .col-lg-12 .col-9 .icon-title-responsive{
+    .container .col-lg-12 .row .col-lg-4 .col-lg-12 .col-9 .icon-title-responsive {
         font-size: smaller !important;
     }
-    .container .col-lg-12 .row .col-lg-4 .col-lg-12 .col-9 .icon-para-responsive{
+    .container .col-lg-12 .row .col-lg-4 .col-lg-12 .col-9 .icon-para-responsive {
         font-size: 11px !important;
     }
-    .inner-page-header{
+    .inner-page-header {
         padding: 80px 0px !important;
     }
     /* START FOOTER RESPONSIVE */
     /*  */
-    .become-a-donar-col-lg-12-responsive{
+    .become-a-donar-col-lg-12-responsive {
         padding: unset !important;
     }
-    .become-a-donar-container-responsive{
+    .become-a-donar-container-responsive {
         top: 40px !important;
         border-radius: unset !important;
         padding-right: unset !important;
         padding-left: unset !important;
     }
-    .become-a-donar-title-responsive{
+    .become-a-donar-title-responsive {
         font-size: 2rem !important;
     }
-    .become-a-donar-para-responsive{
+    .become-a-donar-para-responsive {
         font-size: 12px !important;
         margin-top: 5px !important;
     }
-    .become-a-donar-btn-responsive{
+    .become-a-donar-btn-responsive {
         font-size: smaller !important;
         padding: 5px 0px !important;
     }
-    .footer-tag-responsive{
+    .footer-tag-responsive {
         padding-top: 6rem !important;
     }
-    .px-0-responsive{
+    .px-0-responsive {
         padding-left: unset !important;
         padding-right: unset !important;
     }
     /* END FOOTER RESPONSIVE */
 }
-@media(max-width: 321px){
+@media (max-width: 321px) {
     .top-header .col-lg-8 {
         text-align: start !important;
     }
@@ -125,7 +173,7 @@ Use it to make something cool, have fun, and share what you've learned with othe
         font-size: 10.5px !important;
         /* margin-bottom: 1rem !important; */
     }
-    div#wpadminbar{
+    div#wpadminbar {
         position: relative !important;
     }
 }
@@ -140,7 +188,6 @@ Use it to make something cool, have fun, and share what you've learned with othe
 .myfont2 {
     font-family: myfont2 !important;
 }
-
 
 /* 1st top-nav */
 @font-face {
@@ -173,7 +220,7 @@ a.nav-link.active{
 } */
 
 .nf-form-wrap.ninja-forms-form-wrap {
-    padding-top: 50px!important;
+    padding-top: 50px !important;
 }
 
 .nf-form-fields-required {
@@ -184,15 +231,15 @@ a.nav-link.active{
     margin-bottom: 5px;
 }
 
-.nf-form-content{
-    max-width: 100%!important;
+.nf-form-content {
+    max-width: 100% !important;
 }
 
 #nf-field-4 {
     width: 300px;
 }
 
-.label-left .nf-field-element{
+.label-left .nf-field-element {
     order: 0;
 }
 /* .container.my-breadcrumb{
@@ -209,7 +256,7 @@ a.nav-link.active{
     display: none !important;
 } */
 /* Inner Page Header */
-.inner-page-header{
+.inner-page-header {
     padding: 130px 130px;
     background-image: url(assets/images/banner-images/about.jpg);
     /* background-position: center !important; */
@@ -220,20 +267,20 @@ a.nav-link.active{
 }
 .inner-page-header:before {
     position: absolute;
-    content: '';
+    content: "";
     left: 0px;
     top: 0px;
     width: 100%;
     height: 100%;
-    background-color: rgba(0,0,0,0.82);
+    background-color: rgba(0, 0, 0, 0.82);
 }
-.inner-page-header h2{
+.inner-page-header h2 {
     color: white;
     text-transform: uppercase;
     font-weight: bold;
     margin: 0 !important;
 }
-header.inner-page-header .container{
+header.inner-page-header .container {
     text-align: center !important;
 }
 
@@ -253,18 +300,18 @@ header.inner-page-header .container{
     font-weight: bold;
 }
 
-.page_main .content ul{
+.page_main .content ul {
     padding: 16px;
 }
 
-.page_main .content ul > li{
+.page_main .content ul > li {
     font-size: 16px;
     line-height: 2.2;
     font-weight: lighter;
 }
 
 /* hero-header { carousel } */
-#HeroCarousel>.carousel-inner>.carousel-caption{
+#HeroCarousel > .carousel-inner > .carousel-caption {
     padding: 0px;
     bottom: 0px;
     top: 140px;
@@ -284,13 +331,13 @@ header.inner-page-header .container{
 }
 
 /* who-we-are */
-.highlight-box{
+.highlight-box {
     background-color: #03b664;
 }
-.image-box{
+.image-box {
     height: 100%;
 }
-.image-box > img{
+.image-box > img {
     height: 100%;
 }
 
@@ -300,7 +347,7 @@ header.inner-page-header .container{
     height: 86vh;
     /* min-height: 500px; */
     width: 100%;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('assets/images/hero.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("assets/images/hero.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -352,7 +399,7 @@ header.inner-page-header .container{
 }
 
 .top-header-link {
-    font-size: 14px!important;
+    font-size: 14px !important;
 }
 
 .top-header-link:hover {
@@ -387,7 +434,7 @@ header.inner-page-header .container{
     background-color: #4362ae !important;
     color: white !important;
 }
-a > i.fab.footer-social-icon::before{
+a > i.fab.footer-social-icon::before {
     position: relative;
     top: 10.8px;
     left: 0.4px;
@@ -404,14 +451,17 @@ li.menu-item {
     margin: 0px 0.5rem !important;
 }
 
-a.nav-link{
-    color: #4362ae !important;
+a.nav-link {
+    text-transform: uppercase;
+    font-weight: bold!important;
+    color: #4362ae!important;
+    font-size: 13px;
 }
-a.nav-link:hover{
+a.nav-link:hover {
     color: #ffa900 !important;
 }
 
-a.nav-link.active{
+a.nav-link.active {
     color: #ffa900 !important;
 }
 
@@ -423,11 +473,11 @@ a.nav-link {
     background-color: #f2f3f7 !important;
 }
 
-.container .col-lg-12 .row .col-lg-4 .col-lg-12.bg-light:hover{
+.container .col-lg-12 .row .col-lg-4 .col-lg-12.bg-light:hover {
     background-color: #4362ae !important;
     color: white !important;
 }
-.container .col-lg-12 .row .col-lg-4 .col-lg-12.bg-light:hover .text-muted{
+.container .col-lg-12 .row .col-lg-4 .col-lg-12.bg-light:hover .text-muted {
     background-color: #4362ae !important;
     color: white !important;
 }
@@ -439,8 +489,6 @@ a.nav-link {
 .footer-link {
     text-decoration-color: black !important;
 }
-
-
 
 /* input.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required{
     background-color: blue !important;
