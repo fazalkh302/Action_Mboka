@@ -1,0 +1,41 @@
+<?php
+                $args = array(
+                    'post_type' => 'post',
+                    'post_status' => 'publish',
+                    'category_name' => 'News & Media',
+                    'posts_per_page' => 5,
+                );
+                $arr_posts = new WP_Query( $args );
+            
+                if ( $arr_posts->have_posts() ) :
+                
+                    while ( $arr_posts->have_posts() ) :
+                        $arr_posts->the_post();
+                    ?>
+                        <div class="card w-100 news_card mb-2 shadow" id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+                            <?php
+                                if ( has_post_thumbnail() ) :
+                                    the_post_thumbnail();
+                                endif;
+                            ?>
+
+                            <div class="card-body">
+                                <h5 class="card-title"><?php the_title(); ?></h5>
+                                <p class="card-text"><?php the_excerpt(); ?></p>
+<small><?php the_time('F jS, Y'); ?> by <?php the_author_posts_link(); ?></small>
+                            </div>
+                        </div>
+
+                <?php 
+                    endwhile;
+                endif; 
+            ?>
+
+
+
+
+
+
+<p class="postmetadata"><?php _e( 'Posted in' ); ?> <?php the_category( ', ' ); ?></p>
+<p><?php esc_html_e( 'Sorry, no posts matched your criteria.' ); ?></p>
+ 	<h2><a href="<?php the_permalink(); ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_title(); ?></a></h2>
