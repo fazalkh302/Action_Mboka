@@ -1,8 +1,14 @@
 <?php
-/*
-Template Name: main-template
- */
+/**
+* Template Name: main-template
+* 
+* @package WordPress
+* @subpackage NGO-2020
+* @since JULY 2020 @Muneebkh2
+*/
+
 get_header();
+
 ?>
 
 <header class="inner-page-header">
