@@ -50,7 +50,7 @@
                         <i class="fab fa-instagram px-2 top-header-social-icon"></i>
                     </a>
                 </div>
-                <div class="col-2">
+                <div class="col-2 offset-sm-0 offset-2">
                     <!-- GTranslate: https://gtranslate.io/ -->
 <style type="text/css">
 .switcher {font-family:Arial;font-size:10pt;text-align:left;cursor:pointer;overflow:hidden;width:163px;line-height:17px;}
@@ -139,6 +139,7 @@ if(GTranslateGetCurrentLang() != null)jQuery(document).ready(function() {var lan
               <!-- end navbar -->
         </div>
     </div>
+
 
     
     

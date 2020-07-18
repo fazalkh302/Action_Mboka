@@ -32,7 +32,7 @@
                         </div>
                     </div>
                     <div class="col-lg-2 mb-sm-0 mb-3 mt-sm-0 mt-4 px-0-responsive">
-                        <div class="col-lg-12 mb-sm-4 mb-3 px-0-responsive">
+                        <div class="col-lg-12 mb-sm-4 mb-2 px-0-responsive">
                             <h6 class="myfont1s">Service</h6>
                         </div>
                         <div class="col-lg-12 px-0-responsive">
@@ -51,7 +51,7 @@
                         </div>
                     </div>
                     <div class="col-lg-2 mb-sm-0 mb-3 px-0-responsive">
-                        <div class="col-lg-12 borders mb-sm-4 mb-3 px-0-responsive">
+                        <div class="col-lg-12 borders mb-sm-4 mb-2 px-0-responsive">
                             <h6 class="myfont1s">Our Links</h6>
                         </div>
                         <div class="col-lg-12 px-0-responsive">
