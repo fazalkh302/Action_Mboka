@@ -4,6 +4,7 @@ require_once('bootstrap-navwalker.php');
 
 // Theme Supports her...
 add_theme_support('menus');
+add_theme_support( 'post-thumbnails' );
 
 function wpb_theme_setup(){
     register_nav_menus(array(

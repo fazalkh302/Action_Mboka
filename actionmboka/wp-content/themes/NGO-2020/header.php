@@ -27,7 +27,7 @@
 
     <!-- top contact area -->
     <div class="container-fluid py-1 text-white top-header">
-        <div class="container">
+        <div class="container" style="width:1200px!important">
             <div class="row">
                 <div class="col-lg-8 col-md-8 mb-sm-0 mb-2">
                     <a href="mailto:" class="m-0 mt-1 top-header-link">

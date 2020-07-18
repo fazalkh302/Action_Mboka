@@ -18,14 +18,14 @@
                 <div class="row">
                     <div class="col-lg-4 px-0">
                         <div class="col-4 px-0 mb-4">
-                            <img src="<?php bloginfo('template_url'); ?>/assets/images/Action_20MBOKA-04 (1).png" class="borders card-img" alt="">
+                            <img src="<?php bloginfo('template_url'); ?>/assets/images/logo-2.png" class="borders card-img" alt="">
                         </div>
                         <div class="col-lg-12 px-0">
                             <p class="text-muted myfont1" style="font-size: small;">Phone : +243-814-320-372</p>
-                            <p class="text-muted myfont1 mb-4" style="font-size: small;">
+                            <!-- <p class="text-muted myfont1 mb-4" style="font-size: small;">
                             Head Office : 
                             By pass 294/74 / Kinshasa-Selembao DRC.  001 712 281 3584. S Maple st. B 38 Sioux City Iowa 51106 USA
-                            </p>
+                            </p> -->
                             <a href="#" class="text-body"><i class="fab fa-facebook-f bg-white shadow-sm mx-1 rounded-circle footer-social-icon"></i></a>
                             <a href="#" class="text-body"><i class="fab fa-twitter bg-white shadow-sm mx-1 rounded-circle footer-social-icon"></i></a>
                             <a href="#" class="text-body"><i class="fab fa-instagram bg-white shadow-sm mx-1 rounded-circle footer-social-icon"></i></a>
@@ -36,17 +36,8 @@
                             <h6 class="myfont1s">Service</h6>
                         </div>
                         <div class="col-lg-12 px-0-responsive">
-                            <a class="footer-link" href="#">
-                                <p class="myfont1 text-muted mb-sm-3 mb-2" style="font-size: small;">Donate</p>
-                            </a>
-                            <a class="footer-link" href="#">
-                                <p class="myfont1 text-muted mb-sm-3 mb-2" style="font-size: small;">Volunteer</p>
-                            </a>
-                            <a class="footer-link" href="#">
+                            <a class="footer-link" href="<?php echo get_home_url(); ?>/make-donation">
                                 <p class="myfont1 text-muted mb-sm-3 mb-2" style="font-size: small;">Donation</p>
-                            </a>
-                            <a class="footer-link" href="#">
-                                <p class="myfont1 text-muted" style="font-size: small;">Chairty</p>
                             </a>
                         </div>
                     </div>
@@ -55,17 +46,14 @@
                             <h6 class="myfont1s">Our Links</h6>
                         </div>
                         <div class="col-lg-12 px-0-responsive">
-                            <a class="footer-link" href="#">
+                            <a class="footer-link" href="<?php echo get_home_url(); ?>/contact-us">
                                 <p class="myfont1 text-muted mb-sm-3 mb-2" style="font-size: small;">Contact Us</p>
                             </a>
-                            <a class="footer-link" href="#">
+                            <a class="footer-link" href="<?php echo get_home_url(); ?>/about-us">
                                 <p class="myfont1 text-muted mb-sm-3 mb-2" style="font-size: small;">About Us</p>
                             </a>
-                            <a class="footer-link" href="#">
-                                <p class="myfont1 text-muted mb-sm-3 mb-2" style="font-size: small;">Donation</p>
-                            </a>
-                            <a class="footer-link" href="#">
-                                <p class="myfont1 text-muted" style="font-size: small;">Volunteer</p>
+                            <a class="footer-link" href="<?php echo get_home_url(); ?>/gallery">
+                                <p class="myfont1 text-muted" style="font-size: small;">Gallery</p>
                             </a>
                         </div>
                     </div>
