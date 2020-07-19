@@ -1,0 +1,12 @@
+Website Url:
+	https://www.actionsmboka.com/
+Admin Panel Url:
+	https://www.actionsmboka.com/admin
+( Admin Panel )Login Credentials: 
+	Email: jacques.ngbondu@gmail.com
+	Password: FT8Q0v7z(8BCHy$15ZNmcQfr
+( Developer Account )
+	username: admin
+	Email: fazalkh909@gmail.com
+	Password: Developer#1Karachi
+
